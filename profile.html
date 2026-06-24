@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="(link unavailable)" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="profile.css">
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('image/profilebg.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    /* Section Styles */
+    section {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* Header Styles */
+    header {
+      background-color: #85b506;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      width: 100%;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Profile Container Styles */
+    .profile-container {
+      width: 80%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* Profile Picture Styles */
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    
+    .profile-picture img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    /* Profile Info Styles */
+    .profile-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .profile-info h1 {
+      font-size: 24px;
+    }
+    
+    /* Profile Buttons Styles */
+    .profile-buttons {
+      margin-top: 20px;
+    }
+    
+    .profile-buttons button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #85b506;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    
+    /* Profile Details Styles */
+    .profile-details {
+      margin-top: 20px;
+      width: 80%;
+    }
+    
+    .profile-details h2 {
+      font-size: 18px;
+    }
+    
+    .profile-details p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="shopp.html">Home</a></li>
+          <li><a href="products2.html">Products</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="profile-container">
+      <div class="profile-picture">
+        <img src="image/prof.jpeg" alt="Profile Picture">
+      </div>
+      <div class="profile-info">
+        <h1>Shyam Patil</h1>
+        <p>Shopkeeper</p>
+        <p>shyam@example.com</p>
+              </div>
+      <div class="profile-buttons">
+        <button>Edit Profile</button>
+        <button>Change Password</button>
+      </div>
+      <div class="profile-details">
+        <h2>Account Details</h2>
+        <p>Shop Name: Agrocare</p>
+        <p>Address:Shegaon naka, Amravati</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Email: agrocare@example.com</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

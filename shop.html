@@ -1,0 +1,93 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<style>
+body{
+background-image:url("image/T2.JPEG");
+background-repeat:no-repeat;
+background-size:1400px 700px;
+}
+navbar-top{
+    width: 100%;
+    height:10hv;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    background-color:#aabbcc;
+    justify-content:space-between;
+}
+</style>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+    
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
+
+    <title>Shopkeeper Dashboard</title>
+    <link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+ integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+<!-- navbar top -->
+    <div>
+        <div class="navbar-top">
+            <div class="social-link">
+                <i><img src="./image/twitter.png" alt="" width="30px"></i>
+                <i><img src="./image/facebook.png" alt="" width="30px"></i>
+                <i><img src="./image/google-plus.png" alt="" width="30px"></i>
+            </div>
+            <div class="logo">
+                <h3>Shopkeeper Dashboard</h3>
+            </div>
+            <div class="icons">
+                <i><img src="./image/search.png" alt="" width="20px"></i>
+                <i><img src="./image/heart.png" alt="" width="20px"></i>
+                <i><img src="./image/shopping-cart.png" alt="" width="25px"></i>
+            </div>
+        </div>
+    </div>
+    <!-- navbar top -->
+<h2>Add Product</h2>
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
+<div class="panel panel-default" style=background-image:url("image/T2.jpeg")>
+  <div class="panel-body">
+        <form id="productForm">
+            <input type="text" id="name" name="name" placeholder="Product Name" required class="form-control"><br>
+            <textarea id="description" name="description"  placeholder="Description" required class="form-control"></textarea><br>
+            <select required class="form-control">
+                <option>Crops</option>
+                <option>Pesticides</option>
+                <option>Fertilizers</option>
+                <option>Organic-product</option>
+                </select><br>
+            <input type="number" id="price" name="price"  placeholder="Price" required class="form-control"><br>
+            <input type="number" id="quantity" name="quantity" placeholder="Quantity" required class="form-control"><br>
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" placeholder="Image" required class="form-control"><br>
+             &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<button type="submit" class="btn btn-success">Add Product</button>
+        </form>
+</div>
+</div> 
+</div>
+<div class="col-md-4">
+</div>
+</div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
