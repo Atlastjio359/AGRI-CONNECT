@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore various agricultural tools available at Agriconnect, including drones, mini tillers, harvest machines, and more.">
+    <meta name="keywords" content="Agriculture, Tools, Drones, Mini Tiller, Chain Saw, Mower, Harvest Machines">
+    <meta name="author" content="Agriconnect">
+    <title>Tools - Agriconnect</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Global reset and font settings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body with gradient background */
+        body {
+            background: linear-gradient(to right, #f0f0f0, #d9ffcc);
+            color: #000000;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+
+        /* Main section for cards */
+        .main {
+            margin: 100px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .main1 {
+            margin: 30px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .main2 {
+            margin: 50px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+           }
+            
+        /* Card styling */
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Image styling */
+        .image img {
+        
+    width: 100%;
+    height: 400px; /* Increased height */
+    object-fit: cover;
+    border-bottom: 4px solid #4CAF50;
+
+
+        }
+
+        /* Title styling */
+        .title {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .title h1 {
+            font-size: 22px;
+        }
+
+        /* Description and button */
+        .des {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #333;
+        }
+
+     
+    </style>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect</title>
+    <link rel="stylesheet" href="expert.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+</head>
+<body>
+ <div class="main-content">
+        <nav class="navbar navbar-expand-md" id="navbar-color">
+           <div class="container">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><i><img src="./image/menu.png" alt="" width="30px"></i></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Expert.html">Expert Advice</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="wheather.html">Weather Forcast</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="youtube.html">Product Information</a>
+                </li>
+              </ul>
+            </div>
+           </div> 
+          </nav>	
+<!-- Main content -->
+<div class="main">
+    <!-- Cards: Dynamically render tools -->
+    <div class="card">
+        <div class="image">
+            <img src="image/alika.jpeg" alt="Drone">
+        </div>
+        <div class="title">
+            <h1>Alika</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/P0sDzsbL1SE?si=6e36QWc1CG1f0H8p" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/coragen.jpeg" alt="Mini Tiller">
+        </div>
+        <div class="title">
+            <h1>Coragen</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/bDlttesGSWs?si=T_2kKwp-hXKsC-7n" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/simodis.jpeg" alt="Harvest Machine">
+        </div>
+        <div class="title">
+            <h1>Simodis</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/Wsl59HoBRUk?si=_YRr4F1evSfPeQ6V" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/EM1.jpeg" alt="Chain Saw">
+        </div>
+        <div class="title">
+            <h1>EM-1</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/OLb9otDQcKw?si=exE7Gf24ge6vZiD9" class="button">Click me</a>
+        </div>
+    </div>
+</div>
+
+<div class="main1">
+    <!-- Cards: Dynamically render tools -->
+    <div class="card">
+        <div class="image">
+            <img src="image/phoskill.jpeg" alt="Drone">
+        </div>
+        <div class="title">
+            <h1>Phoskill</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/gGN6dPSUdIQ?si=mHdIAEZrfT4ISJCJ" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/admire.jpeg" alt="Mini Tiller">
+        </div>
+        <div class="title">
+            <h1>Admire</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/DNIdjl32PVY?si=IcrNeRM9w6DmTurQ" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/actara.jpeg" alt="Harvest Machine">
+        </div>
+        <div class="title">
+            <h1>Actara</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/nvo3G9bzamo?si=JQLkX_-5d2-wIGRD" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/areva.jpeg" alt="Chain Saw">
+        </div>
+        <div class="title">
+            <h1>Areva</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/Zquf-_OlMcY?si=asONrq7YiZd3pg9h" class="button">Click me</a>
+        </div>
+    </div>
+</div>
+
+<div class="main2">
+    <!-- Cards: Dynamically render tools -->
+    <div class="card">
+        <div class="image">
+            <img src="image/benevia.jpeg" alt="Drone">
+        </div>
+        <div class="title">
+            <h1>Benevia</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/T3WI2z3ZHLg?si=0yuOtkfTSFezPlpc" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/areva.jpeg" alt="Mini Tiller">
+        </div>
+        <div class="title">
+            <h1>Areva</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/Zquf-_OlMcY?si=asONrq7YiZd3pg9h" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/alika.jpeg" alt="Harvest Machine">
+        </div>
+        <div class="title">
+            <h1>Alika</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/dsQqMxmzxec?si=0q0GYWPNle8pRYnP" class="button">Click me</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="image/maha.jpeg" alt="Chain Saw">
+        </div>
+        <div class="title">
+            <h1>Mahadhan</h1>
+        </div>
+        <div class="des">
+            <a href="https://youtu.be/Xi4zyr-InsE?si=NeDxW5vPwcXAiRQh" class="button">Click me</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

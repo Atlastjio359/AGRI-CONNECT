@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertilizer Products - Agriconnect</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global reset and font settings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body with gradient background */
+        body {
+            background: linear-gradient(to right, #f0f0f0, #d9ffcc);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+
+        /* Product grid styling */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px 5%;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 380px; /* Increased card height */
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 250px; /* Increased image height */
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+
+        .product-price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        /* Footer section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        footer .footer-links a:hover {
+            color: #4CAF50;
+        }
+
+        footer .social-icons a {
+            color: #fff;
+            font-size: 2rem;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer .social-icons a:hover {
+            color: #a8af4c;
+        }
+/* Profile Info Styles */
+    .profile-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .profile-info h1 {
+      font-size: 24px;
+    }
+    </style>
+</head>
+<body>
+<div class="profile-info">
+        <h1>Rajesh Kute</h1>
+        <p>Shopkeeper</p>
+        <p>kuteindustrey@gmail.com</p>
+            
+</div>
+<!-- Main content -->
+<h1> Products</h1>
+<div class="product-grid">
+    <div class="product-card">
+        <img src="image/cotton1.jpeg" alt="All-Purpose Fertilizer" class="product-image">
+        <h2 class="product-name">Fertilizer For Cotton</h2>
+        <p class="product-price">₹499</p>
+    </div>
+    <div class="product-card">
+        <img src="image/herbicide1.jpeg" alt="Organic Compost" class="product-image">
+        <h2 class="product-name"> Liquid Fertilizer</h2>
+        <p class="product-price">₹249</p>
+    </div>
+    <div class="product-card">
+        <img src="image/cotton4.png" alt="Rose Food" class="product-image">
+        <h2 class="product-name">Cotton Stop</h2>
+        <p class="product-price">₹499</p>
+    </div>
+    <div class="product-card">
+        <img src="image/jogger.png" alt="Lawn Fertilizer" class="product-image">
+        <h2 class="product-name">JOGGER PLUS</h2>
+        <p class="product-price">₹799</p>
+    </div>
+    <div class="product-card">
+        <img src="image/remaze.png" alt="Tomato Feed" class="product-image">
+        <h2 class="product-name">Ramaze</h2>
+        <p class="product-price">₹499</p>
+    </div>
+    <div class="product-card">
+        <img src="image/pesticide3.jpeg" alt="Citrus Plant Food" class="product-image">
+        <h2 class="product-name">Thripan</h2>
+        <p class="product-price">₹399</p>
+    </div>
+    <div class="product-card">
+        <img src="image/pesticide1.jpeg" alt="Liquid Seaweed" class="product-image">
+        <h2 class="product-name">Lambrin Pro</h2>
+        <p class="product-price">₹749</p>
+    </div>
+    <div class="product-card">
+        <img src="image/occult.png" alt="Bone Meal" class="product-image">
+        <h2 class="product-name">Occult</h2>
+        <p class="product-price">₹599</p>
+    </div>
+</div>
+</body>
+</html>

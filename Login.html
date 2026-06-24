@@ -1,0 +1,145 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+ integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<style>
+div{
+background-repeat:no-repeat;
+background-size:500px 500px;
+border-radius:10px;
+padding-top:50px;
+display-flex;
+}
+body{
+background-image:url("image/T1.JPEG");
+background-repeat:no-repeat;
+background-size:1400px 700px;
+}
+#menu {
+	background: #A4CCC4;
+	height: 45px;
+	padding-left: 18px;
+	border-radius: 10px;
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+#menu ul {
+	width: 100%;
+	text-align: left;
+}
+#menu li {
+	display: inline-block;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu a.dropdown-arrow:after {
+	content: "\25BE";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #0099CC;
+	background: #F2F2F2;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	color: #FFFFFF;
+	content: "\2261"; 
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #444444;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:#FFFFFF}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}
+#menu{
+background-image:url("image/T1.JPEG");
+background-repeat:no-repeat;
+background-size:cover;
+border-radius:100px;
+margin:10px 10px 10px 10px;
+border-style:solid;
+border-color:#ffffff;
+border-width:2px;
+}
+</style>
+</head>
+<body>
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-4" align="center"><br/>
+<div class="panel panel-default" style=background-image:url("image/T4.jpeg")>
+  <div class="panel-body">
+<form>
+<h1 style=color:ffffff;>Login Here</h1><hr>
+<input type="text" pattern="[a-z,A-Z]{2,20}" placeholder="Enter Username" required class="form-control"></br>
+<input type="Password" pattern="[0-9]{10}" placeholder="Enter Password" required class="form-control"></br>
+<br/>
+<a href="index.html" class="btn btn-success">Farmer Login</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="shop.html" class="btn btn-success">Shopkeeper Login</a><br/><br/>
+</form>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+</div>
+</div>
+</body>
+</html>
