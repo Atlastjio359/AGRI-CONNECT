@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopkeeper Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('image/XYZ.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    header {
+      background-color: #85b506;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    
+    .product-list {
+      background-color: #f7f7f7;
+      padding: 0.5em;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    
+    .product-list ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .product-list li {
+      margin-bottom: 10px;
+    }
+    
+    .product-form {
+      background-color: #f7f7f7;
+      padding: 3em;
+      border: 1px solid #ddd;
+      background-image: url('image/bgimg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+    
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="shopp.html">Home</a></li>
+        <li><a href="products2.html">Products</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="product-list">
+      <h2>Products</h2>
+      <ul>
+        <!-- Product list will be generated dynamically -->
+      </ul>
+    </section>
+    <section class="product-form">
+      <h2>Add Product</h2>
+      <form action="" method="post" enctype="multipart/form-data">
+        <label>Product Name:</label>
+        <input type="text" id="product-name" name="p-n"><br><br>
+        <label>Product Description:</label>
+        <textarea id="product-description" name="p-d"></textarea><br><br>
+        <label>Price:</label>
+        <input type="number" id="prize" name="prize"><br><br>
+        <label>Quantity:</label>
+        <input type="number" id="quantity" name="quantity"><br><br>
+        <label>Image:</label>
+        <input type="file" id="image" name="image" accept=".jpg, .jpeg, .png"/><br><br>
+        <input type="submit" name="s1">
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
