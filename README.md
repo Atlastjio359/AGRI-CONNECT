@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-**Agriconnect** is a revolutionary mobile-first web platform designed to bridge the gap between farmers, shopkeepers, and agricultural experts. It empowers farmers with the right tools, knowledge, and products to make informed, sustainable decisions—enhancing crop yields while minimizing environmental impact.
+**Agriconnect** is a  web platform designed to bridge the gap between farmers, shopkeepers, and agricultural experts. It empowers farmers with the right tools, knowledge, and products to make informed, sustainable decisions—enhancing crop yields while minimizing environmental impact.
 
 > *"From soil to sale—Agriconnect connects the agricultural ecosystem."*
 
