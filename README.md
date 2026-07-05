@@ -1,6 +1,6 @@
 # 🌾 Agriconnect
 
-### *Bridg between the Farmers & Shopkeepers for a Sustainable Agricultural Future*
+### *Bridge between the Farmers & Shopkeepers for a Sustainable Agricultural Future*
 
 ---
 
