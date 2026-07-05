@@ -2,7 +2,6 @@
 
 ### *Bridging Farmers, Shopkeepers & Experts for a Sustainable Agricultural Future*
 
--------
 
 ## 📌 Project Overview
 
